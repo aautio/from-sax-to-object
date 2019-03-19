@@ -1,0 +1,30 @@
+{
+  "name": "from-sax-to-object",
+  "version": "1.0.0",
+  "description": "Make objects with sax",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "lib/",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "nyc mocha"
+  },
+  "author": "Ari Autio <ari.autio@iki.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "sax": "^1.2.4"
+  },
+  "devDependencies": {
+    "@types/sax": "^1.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.0.1",
+    "nyc": "^13.3.0",
+    "snap-shot-it": "^6.2.10",
+    "typescript": "^3.3.3"
+  }
+}
